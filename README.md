@@ -9,8 +9,8 @@ ether-bit-bot/
 │   │   ├── TradingBot.h        # Class declaration for the trading bot logic
 │   │   ├── TradingBot.cpp      # Implementation of the trading bot logic
 │   ├── exchange/
-│   │   ├── KrakenAPI.h         # Class declaration for Kraken API wrapper
-│   │   ├── KrakenAPI.cpp       # Implementation of the Kraken API wrapper
+│   │   ├── PolygonAPI.h        # Class declaration for Polygon.io API wrapper
+│   │   ├── PolygonAPI.cpp      # Implementation of the Polygon.io API wrapper
 │   │   ├── WebSocketClient.h   # WebSocket client declaration for real-time data
 │   │   ├── WebSocketClient.cpp # WebSocket client implementation for real-time data
 │   ├── utils/
@@ -25,7 +25,7 @@ ether-bit-bot/
 │   ├── test_main.cpp           # Main file for running unit tests
 │   ├── test_TradingBot.cpp     # Tests for TradingBot
 │   ├── test_WebSocketClient.cpp # Tests for WebSocketClient
-│   ├── test_KrakenAPI.cpp      # Tests for KrakenAPI
+│   ├── test_PolygonAPI.cpp     # Tests for PolygonAPI
 ├── CMakeLists.txt              # CMake build configuration
 ├── README.md                   # Documentation for the project
 ```
